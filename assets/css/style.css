@@ -126,7 +126,7 @@ body {
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
-    background-color: #2C343A;
+    background-color: #2C343A; /*parte debaixo das camisas, como um rodapé*/
 }
 
 .cartao--destaque {
@@ -135,6 +135,8 @@ body {
 
 .cartao__imagem--desktop {
     display: none;
+    width: 100%;
+    text-align: center;
 }
 
 .cartao__conteudo {
