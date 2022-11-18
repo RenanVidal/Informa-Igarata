@@ -4,22 +4,21 @@
 }
 
 body {
-    background-color: #1D232A;
+    background-color: #f9fafc;
     font-family: 'Open Sans', 'icones', sans-serif;
-    color: #FFFFFF;
+    color: #0a0a0a;
 
 }
 
-/*
 .cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #15191C;
+    background-color: #2f18f5;
     padding: 8px 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 4px rgba(5, 71, 146, 0.16);
 } 
-*/
+
 
 
 .cabecalho__menu i::before {
@@ -40,18 +39,18 @@ body {
     display: none;
 }
 
-/*
+
 .menu-lateral {
     display: flex;
     flex-direction: column;
-    background-color: #15191C;
+    background-color: #0e578f;
     width: 75vw;
     height: 100vh;
     position: absolute;
     left: -100vw;
     transition: .25s;
 }
-*/
+
 
 .menu-lateral--ativo {
     left: 0;
@@ -59,15 +58,15 @@ body {
 }
 
 .menu-lateral__logo {
-    width: 118px;
+    width: 250px;
     align-self: center;
     padding: 16px;
 }
 
 .menu-lateral__link {
     height: 64px;
-    color: #95999C;
-    padding: 64px;
+    color: #d2d8dd;
+    padding: 50px;
     display: flex;
     align-items: center;
 }
@@ -126,7 +125,7 @@ body {
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
-    background-color: #2C343A; /*parte debaixo das camisas, como um rodapé*/
+    background-color: #1596f8;
 }
 
 .cartao--destaque {
@@ -135,8 +134,6 @@ body {
 
 .cartao__imagem--desktop {
     display: none;
-    width: 100%;
-    text-align: center;
 }
 
 .cartao__conteudo {
@@ -157,7 +154,7 @@ body {
 }
 
 .cartao__perfil {
-    color: #95999C;
+    color: #05253d;
     font-size: 0.9rem;
     grid-column: span 2;
 }
@@ -165,7 +162,7 @@ body {
 .cartao__info {
     display: flex;
     align-items: center;
-    color: #95999C;
+    color: #eaeef1;
 }
 
 .cartao__info--tempo::before {
@@ -250,7 +247,7 @@ body {
     }
 
     .cabecalho {
-        background-color: #1D232A;
+        background-color: #107bf7;
         display: grid;
         grid-template-columns: 1fr auto;
         column-gap: 32px;
