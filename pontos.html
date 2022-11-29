@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Informa + Igaratá | Pontos Tutisticos</title>
+    </head>
+    <body>
+
+        <header class="cabecalho">
+            <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+            <img src="./assets/img/Informa_Igarata-logo.png" alt="Logotipo da HZC" class="cabecalho__logo">
+            <p class="cabecalho__perfil">
+                <i class="ri-instagram-line"></i>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-line"></i>
+                <i class="ri-youtube-line"></i>
+            </p>
+            <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
+        </header>
+
+        <nav class="menu-lateral ">
+            <img src="./assets/img/Informa_Igarata-logo.png" alt="Logotipo da HZC" class="menu-lateral__logo">
+            <a href="./index.html" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
+            <a href="#" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
+            <a href="./pontos.html" class="menu-lateral__link menu-lateral__link--picos">Pontos Turisticos</a>
+            <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Comercio</a>
+            <a href="#" class="menu-lateral__link menu-lateral__link--camisas">telefones uteis</a>
+            <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Fotos</a>
+        </nav>
+
+        <main class="principal">
+
+            <h2 class="titulo-pagina">Pontos Tutisticos</h2>
+            
+            <article class="cartao cartao--picos destaque-video" aria-label="Mapa dos Picos">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7334.025647894302!2d-46.159500719098176!3d-23.20620326470597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc2890dbf1edb3%3A0xffa8689f6d454c64!2sIgarat%C3%A1%2C%20SP%2C%2012350-000!5e0!3m2!1spt-BR!2sbr!4v1667848921686!5m2!1spt-BR!2sbr" width="100%" height="468" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+
+            <article class="cartao cartao--recentes videos-recentes">
+                <div class="container-fluid p-0 container-sm d-flex justify-content-center">
+
+                    <div class="card text-center shadow-lg" style="width: 100%;">
+                
+                        <div class="card-header bg-white text-dark font-weight-bold">
+                            TEMPO E TEMPERATURA
+                        </div>
+                
+                        <div class="card-body">
+                            <div class="city">Cidade Exemplo, BR</div>
+                            <div class="date">Terça, 1 Dezembro 2020</div>
+                            <div class="container-img">
+                                <img src="./assets/icons/unknown.png">
+                            </div>
+                            <div class="container-temp mx-4 my-3">
+                                <div>22</div>
+                                <span>°c</span>
+                            </div>
+                            <div class="weather py-2">Nublado</div>
+                            <div class="low-high">22°c / 23°c</div>
+                        </div>
+                
+                        <div class="card-footer bg-white">
+                            <div class="input-group ">
+                                <input type="text" class="form-control bg-light" placeholder="digite o nome da cidade" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-warning text-dark" type="button" id="button-addon2">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <section class="secao secao-videos">
+                <h3 class="titulo-secao">Vídeos mais Vistos</h3>
+                <article class="cartao">
+
+                    <img src="./assets/img/cachoeira-ze-grande-em.jpg" alt="Foto de uma cachoeira" class="cartao__imagem" width="384" height="243">
+                    <div class="cartao__conteudo">
+                        <p class="cartao__perfil">Ponto Turisticos</p>
+                        <h3 class="cartao__titulo">Cachoeira do Zé Grande</h3>
+                        <p class="cartao__info cartao__info--tempo">Rota</p>
+                        <a href="https://goo.gl/maps/GpW7wxEo96EWZvwS9">
+                            <i class="ri-map-pin-line"></i>
+                        </a>
+                        
+                    </div>
+                </article>
+                <article class="cartao">
+
+                    <img src="./assets/img/cachoeira-ze-grande-em.jpg" alt="Foto de uma cachoeira" class="cartao__imagem" width="100%" height="243">
+                    <div class="cartao__conteudo">
+                        <p class="cartao__perfil">Ponto Turisticos</p>
+                        <h3 class="cartao__titulo">Cachoeira do Zé Grande</h3>
+                        <p class="cartao__info cartao__info--tempo">Rota</p>
+                        <a href="https://goo.gl/maps/GpW7wxEo96EWZvwS9">
+                            <i class="ri-map-pin-line"></i>
+                        </a>
+                        
+                    </div>
+                </article>
+                <article class="cartao">
+
+                    <img src="./assets/img/cachoeira-ze-grande-em.jpg" alt="Foto de uma cachoeira" class="cartao__imagem" width="384" height="243">
+                    <div class="cartao__conteudo">
+                        <p class="cartao__perfil">Ponto Turisticos</p>
+                        <h3 class="cartao__titulo">Cachoeira do Zé Grande</h3>
+                        <p class="cartao__info cartao__info--tempo">Rota</p>
+                        <a href="https://goo.gl/maps/GpW7wxEo96EWZvwS9">
+                            <i class="ri-map-pin-line"></i>
+                        </a>
+                        
+                    </div>
+                </article>
+                <article class="cartao">
+
+                    <img src="./assets/img/cachoeira-ze-grande-em.jpg" alt="Foto de uma cachoeira" class="cartao__imagem" width="384" height="243">
+                    <div class="cartao__conteudo">
+                        <p class="cartao__perfil">Ponto Turisticos</p>
+                        <h3 class="cartao__titulo">Cachoeira do Zé Grande</h3>
+                        <p class="cartao__info cartao__info--tempo">Rota</p>
+                        <a href="https://goo.gl/maps/GpW7wxEo96EWZvwS9">
+                            <i class="ri-map-pin-line"></i>
+                        </a>
+                        
+                    </div>
+                </article>
+            </section>
+        </main>
+        
+        <script src="./assets/js/index.js"></script>
+        <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+
+    </body>
+</html>
