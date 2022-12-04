@@ -138,3 +138,20 @@ function changeTemp() {
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval( function(){
+    nextImage()
+},5000)
+
+function nextImage(){
+    count++;
+    if(count>13){
+        count = 1
+    }
+
+    document.getElementById("radio" + count).checked = true;
+
+}
